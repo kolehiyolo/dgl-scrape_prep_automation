@@ -52,4 +52,4 @@ if missing_columns:
 final_df = filtered_df[existing_columns]
 
 # * Export the transformed data to CSV
-final_df.to_csv('output/F&B, Columbus, Ohio.csv', index=False)
+final_df.to_csv('outputs/F&B, Columbus, Ohio.csv', index=False, encoding='utf-8')

@@ -1,1 +1,1 @@
-1. Will fix hours issue
+1. I'm hoping to A., still fix the group title issue, and B. get better input output, but f it lol imma just nix those two FOR NOW cuz I have much better fish to fry
