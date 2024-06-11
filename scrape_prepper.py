@@ -8,7 +8,9 @@ transformation_df = pd.read_csv('Prep Parameters.csv')
 # raw_data_df = pd.read_csv('apify_raw_data.csv')
 
 # ! This is just for testing purposes and will have to be reworked for easier UX
-raw_data_df = pd.read_csv('input/GMS Raw - F&B, Columbus, Ohio.csv', low_memory=False) # !
+scrape_name = 'F&B, Tacoma, Washington'
+input_csv_name = 'GMS Raw - ' + scrape_name
+raw_data_df = pd.read_csv(f'input/{input_csv_name}.csv', low_memory=False) # !
 
 # * Filter the columns
 columns_to_keep = transformation_df['COLUMN RAW'].dropna().tolist()
@@ -52,4 +54,5 @@ if missing_columns:
 final_df = filtered_df[existing_columns]
 
 # * Export the transformed data to CSV
-final_df.to_csv('outputs/F&B, Columbus, Ohio.csv', index=False, encoding='utf-8')
+output_csv_name = scrape_name
+final_df.to_csv(f'outputs/{output_csv_name}.csv', index=False, encoding='utf-8')
