@@ -1,0 +1,61 @@
+COLUMN RAW,COLUMN FIXED,COLUMN ORDER,GROUP,GROUP ORDER
+title,Name,1,Primary,1
+subTitle,Subtitle,2,Primary,1
+description,Description,3,Primary,1
+,Categories,4,Primary,1
+categories/0,,5,Primary,1
+categories/1,,6,Primary,1
+categories/2,,7,Primary,1
+categories/3,,8,Primary,1
+categories/4,,9,Primary,1
+categories/5,,10,Primary,1
+categories/6,,11,Primary,1
+categories/7,,12,Primary,1
+categories/8,,13,Primary,1
+categories/9,,14,Primary,1
+url,Google Maps URL,15,Primary,1
+permanentlyClosed,Closed Permanently,16,Primary,1
+temporarilyClosed,Closed Temporarily,17,Primary,1
+phone,Phone,18,Primary,1
+website,Website,19,Primary,1
+address,Address,1,Address,2
+locatedIn,Located In,2,Address,2
+street,Street,3,Address,2
+neighborhood,Neighborhood,4,Address,2
+city,City,5,Address,2
+state,State,6,Address,2
+countryCode,Country Code,7,Address,2
+postalCode,Postal Code,8,Address,2
+location/lat,Latitude,9,Address,2
+location/lng,Longitude,10,Address,2
+,Compiled,1,Opening Hours,4
+openingHours/0/day,,2,Opening Hours,4
+openingHours/0/hours,Monday,3,Opening Hours,4
+openingHours/1/day,,4,Opening Hours,4
+openingHours/1/hours,Tuesday,5,Opening Hours,4
+openingHours/2/day,,6,Opening Hours,4
+openingHours/2/hours,Wednesday,7,Opening Hours,4
+openingHours/3/day,,8,Opening Hours,4
+openingHours/3/hours,Thursday,9,Opening Hours,4
+openingHours/4/day,,10,Opening Hours,4
+openingHours/4/hours,Friday,11,Opening Hours,4
+openingHours/5/day,,12,Opening Hours,4
+openingHours/5/hours,Saturday,13,Opening Hours,4
+openingHours/6/day,,14,Opening Hours,4
+openingHours/6/hours,Sunday,15,Opening Hours,4
+totalScore,Total Score,1,Reviews,5
+reviewsCount,Count,2,Reviews,5
+reviewsDistribution/fiveStar,Five Stars,3,Reviews,5
+reviewsDistribution/fourStar,Four Stars,4,Reviews,5
+reviewsDistribution/threeStar,Three Stars,5,Reviews,5
+reviewsDistribution/twoStar,Two Stars,6,Reviews,5
+reviewsDistribution/oneStar,One Star,7,Reviews,5
+scrapedAt,Scraped When,1,Meta,6
+searchString,Search String,2,Meta,6
+searchPageLoadedUrl,Search URL (Loaded),3,Meta,6
+searchPageUrl,Search URL,4,Meta,6
+rank,Page Rank,5,Meta,6
+placeId,Place ID,6,Meta,6
+plusCode,Google+ Code,7,Meta,6
+cid,CID,8,Meta,6
+fid,FID,9,Meta,6
