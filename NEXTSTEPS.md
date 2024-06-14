@@ -1,5 +1,4 @@
-1. If I revisit, here are the things to improve:
-  1.1. Review the script entirely to understand it better
-  1.2. Fix the GD group title issue
-  1.3. Better IO, fo sho
-  1.4. This is a big ask, but figure out how to integrate with Google Sheets, so that the entire process is automated
+1. Fix the indefinite category columns problem as detailed in BRAINDUMP.md
+2. Rework the script so it will process all sheets within "input" folder automatically
+3. Add a new feature that compiles all output CSVs into one excel/gsheets file
+4. Fix the group headers issue
